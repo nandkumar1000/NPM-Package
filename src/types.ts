@@ -1,4 +1,4 @@
-export type sayHelloProps = {
+export type nandsayHelloProps = {
   firstname: string;
   lastname?: string;
   age?: number;

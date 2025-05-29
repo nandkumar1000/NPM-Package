@@ -1,10 +1,10 @@
-import { sayHelloProps } from "./types";
+import { nandsayHelloProps } from "./types";
 
-export function sayHello({
+export function nandsayHello({
   firstname,
   lastname,
   age
-}: sayHelloProps) {
+}: nandsayHelloProps) {
   console.log("Hello");
   console.log(`Your first name: ${firstname}`);
 
