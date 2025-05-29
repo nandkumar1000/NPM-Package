@@ -1,0 +1,24 @@
+{
+  "name": "package",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://google.com",
+  "repository": {
+    "url": "https://github.com/nandkumar1000/NPM-Package"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Nand Kumar Sahu",
+  "license": "MIT",
+  "description": "This is a npm package",
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  }
+}
